@@ -8,8 +8,8 @@
 }
 header {
     /*sizing of the element*/
-    height: 600px;
-    width: 100%;
+    height: 80px;
+    width: 80%;
     /*set and adjust background image*/
     background-image: url("ssss.jpg");
     background-size: cover;
@@ -17,4 +17,22 @@ header {
     /*center the text*/
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+}
+header p {
+    font-style: italic;
+}    
+.services i {
+    height:80px;
+    width: 80px;
+    text-align: center;
+    padding: 25px 20px;
+    color: green;
+    background-color: black;    
+    font-size: 300%;
+    border-radius: 50%;
+    
+}
+
+.services h2 {
+
 }
